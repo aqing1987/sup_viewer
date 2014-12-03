@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sup_viewer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/sup_viewer_jar</output-path>
+    <root id="archive" name="sup_viewer.jar">
+      <element id="module-output" name="sup_viewer" />
+      <element id="dir-copy" path="$PROJECT_DIR$/pic" />
+    </root>
+  </artifact>
+</component>
