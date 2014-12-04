@@ -13,14 +13,12 @@
         public ViewerFileChooser() {
             super();
 
-            setAcceptAllFileFilterUsed(false);
             addFilter();
         }
 
         // create file chooser by using pointed path
         public ViewerFileChooser(String dir) {
             super(dir);
-            setAcceptAllFileFilterUsed(false);
             addFilter();
         }
 
